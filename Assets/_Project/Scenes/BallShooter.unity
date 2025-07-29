@@ -724,6 +724,7 @@ GameObject:
   - component: {fileID: 1420083290}
   - component: {fileID: 1420083289}
   - component: {fileID: 1420083292}
+  - component: {fileID: 1420083293}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -749,7 +750,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -799,7 +800,7 @@ Transform:
   m_GameObject: {fileID: 1420083288}
   serializedVersion: 2
   m_LocalRotation: {x: 0.09075317, y: -0, z: -0, w: 0.99587345}
-  m_LocalPosition: {x: 2.47, y: 4.91, z: -10}
+  m_LocalPosition: {x: 2.47, y: 7.25, z: -8.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -849,6 +850,23 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &1420083293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420083288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695b4b44b7df744a905eeb80df37843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ballPrefab: {fileID: 6416883996523555083, guid: 6e06bc294780593438633a64de48bf04,
+    type: 3}
+  _shotForce: 20
+  _ballLifeTime: 3
+  _ballRadius: 0.1
 --- !u!1 &1833506616
 GameObject:
   m_ObjectHideFlags: 0
