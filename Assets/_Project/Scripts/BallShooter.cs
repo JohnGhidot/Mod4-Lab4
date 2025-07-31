@@ -48,7 +48,5 @@ public class BallShooter : MonoBehaviour
         rb.AddForce(shootDirection * _shotForce, ForceMode.Impulse);
 
         Destroy(ball, _ballLifeTime);
-
-
     }
 }
